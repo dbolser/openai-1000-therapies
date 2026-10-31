@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta property="og:title" content="OpenAI releases 1000 new therapies">
+<meta property="og:description" content="What it means for the future of medicine">
+<meta property="og:image" content="https://dbolser.github.io/openai-1000-therapies/preview.jpg">
+<meta property="og:image:secure_url" content="https://dbolser.github.io/openai-1000-therapies/preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="OpenAI releases 1000 new therapies">
+<meta property="og:url" content="https://dbolser.github.io/openai-1000-therapies/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Breaking News">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OpenAI releases 1000 new therapies">
+<meta name="twitter:description" content="What it means for the future of medicine">
+<meta name="twitter:image" content="https://dbolser.github.io/openai-1000-therapies/preview.jpg">
+<title>Happy Halloween</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body {
+    background: radial-gradient(ellipse at 50% 110%, #5a1e00 0%, #1a0700 42%, #000 78%);
+    color: #ff7a00;
+    font-family: "Chiller", "Creepster", Impact, "Arial Narrow", sans-serif;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+  }
+  main { animation: rise 1.1s cubic-bezier(.2, 1.5, .4, 1) .25s both; }
+  .pumpkin { font-size: clamp(5rem, 24vmin, 12rem); line-height: 1; }
+  h1 {
+    font-size: min(13vw, 17vh, 11rem);
+    line-height: .95;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    text-shadow: 0 0 18px #ff4d00, 0 0 60px #b32d00;
+  }
+  p {
+    margin-top: 1.4rem;
+    color: #c9b8a8;
+    font: 1.05rem/1.5 system-ui, sans-serif;
+  }
+  .ghost {
+    position: fixed;
+    bottom: -5rem;
+    font-size: 3rem;
+    opacity: .55;
+    animation: drift linear infinite;
+  }
+  .ghost:nth-of-type(1) { left: 8%;  animation-duration: 11s; }
+  .ghost:nth-of-type(2) { left: 78%; animation-duration: 14s; animation-delay: 3s; }
+  .ghost:nth-of-type(3) { left: 44%; animation-duration: 17s; animation-delay: 7s; }
+  @keyframes rise {
+    from { opacity: 0; transform: scale(.25); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+  @keyframes drift {
+    to { transform: translateY(-120vh) translateX(3rem); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    main, .ghost { animation: none; }
+    .ghost { display: none; }
+  }
+</style>
+</head>
+<body>
+  <span class="ghost" aria-hidden="true">👻</span>
+  <span class="ghost" aria-hidden="true">🦇</span>
+  <span class="ghost" aria-hidden="true">👻</span>
+  <main>
+    <div class="pumpkin" aria-hidden="true">🎃</div>
+    <h1>Happy<br>Halloween</h1>
+    <p>Boo. There are no new therapies.</p>
+  </main>
+</body>
+</html>
